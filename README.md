@@ -1,8 +1,9 @@
-# Omnifood Website Project
+# AthletesFuel - Performance Nutrition Platform
 
-✨ Project: Modern & Stylish Frontend for a Food-Tech Website
-A sleek and responsive frontend website built for a fictional company called Omnifood, now live at:
-👉 https://frontend-omni-nishant.netlify.app
+🏆 **AI-Powered Athletic Performance Meal Service**  
+A modern and responsive frontend website for AthletesFuel - precision nutrition engineered for athletes.
+
+👉 **Live Site:** https://athletefuel.netlify.app/
 
 This project emphasizes clean layout, modern UI, and great UX using CSS Flexbox and Grid wherever appropriate. The site includes:
 
