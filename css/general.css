@@ -23,15 +23,15 @@ Large: 1.8
 
 --- 02 COLORS
 
-- Primary: #e67e22
+- Primary: #0066CC (Athletic Blue)
 - Tints:
-#fdf2e9
-#fae5d3
-#eb984e
+#E6F2FF (Light Blue)
+#B3D9FF (Soft Blue)
+#1E90FF (Electric Blue)
 
 - Shades: 
-#cf711f
-#45260a
+#004C99 (Deep Blue)
+#001F3F (Navy)
 
 - Accents:
 - Greys
@@ -161,7 +161,7 @@ body {
   display: block;
   font-size: 1.6rem;
   font-weight: 500;
-  color: #cf711f;
+  color: #004C99;
   text-transform: uppercase;
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
@@ -190,13 +190,13 @@ body {
 
 .btn--full:link,
 .btn--full:visited {
-  background-color: #e67e22;
+  background-color: #0066CC;
   color: #fff;
 }
 
 .btn--full:hover,
 .btn--full:active {
-  background-color: #cf711f;
+  background-color: #004C99;
 }
 
 .btn--outline:link,
@@ -207,7 +207,7 @@ body {
 
 .btn--outline:hover,
 .btn--outline:active {
-  background-color: #fdf2e9;
+  background-color: #E6F2FF;
 
   /* border: 3px solid #fff; */
 
@@ -216,21 +216,21 @@ body {
 }
 
 .btn--form {
-  background-color: #45260a;
-  color: #fdf2e9;
+  background-color: #001F3F;
+  color: #E6F2FF;
   align-self: end;
   padding: 1.2rem;
 }
 
 .btn--form:hover {
   background-color: #fff;
-  color: #555;
+  color: #001F3F;
 }
 
 .link:link,
 .link:visited {
   display: inline-block;
-  color: #e67e22;
+  color: #0066CC;
   text-decoration: none;
   border-bottom: 1px solid currentColor;
   padding-bottom: 2px;
@@ -239,7 +239,7 @@ body {
 
 .link:hover,
 .link:active {
-  color: #cf711f;
+  color: #004C99;
   border-bottom: 1px solid transparent;
 }
 
@@ -261,14 +261,14 @@ body {
 .list-icon {
   width: 3rem;
   height: 3rem;
-  color: #e67e22;
+  color: #0066CC;
 }
 
 *:focus {
   outline: none;
-  /* outline: 4px dotted #e67e22; */
+  /* outline: 4px dotted #0066CC; */
   /* outline-offset: 8px; */
-  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+  box-shadow: 0 0 0 0.8rem rgba(0, 102, 204, 0.5);
 }
 
 /* HELPER/SETTINGS CLASSES */
