@@ -25,25 +25,48 @@ Additional UX details include thoughtful line heights, law of proximity, contras
 
 
 
-### Hero Section ###
-![image](https://user-images.githubusercontent.com/73631606/158005262-680da066-564b-4457-845a-03973139b711.png)
-<br/>
-<br/>
+---
 
-### Diet List and Cards Section ###
-![image](https://user-images.githubusercontent.com/73631606/158005444-cc6e68e6-14ac-405b-a377-4b37641dbf9f.png)
-<br/>
-<br/>
+## 📸 Screenshots
 
-### Testimonials and Gallery Section ###
-![image](https://user-images.githubusercontent.com/73631606/158005348-cea871b7-acf6-4b8d-b010-08c1ce67b6eb.png)
-<br/>
-<br/>
+### Hero Section
+Athletic performance-focused hero with blue theme, compelling CTA, and athlete statistics
 
-### Subscription plans Section ###
-![image](https://user-images.githubusercontent.com/73631606/158005370-81f42a7f-689e-4e0a-a475-9f89de4665e8.png)
-<br/>
-<br/>
+### Training Goals & Performance Meals
+Specialized nutrition programs with macro-optimized meal options
 
-### Call To Action and Footer Section ###
-![image](https://user-images.githubusercontent.com/73631606/158005392-ba6cc474-8fc9-436c-8457-64876254bd03.png)
+### Athlete Testimonials & Gallery
+Real success stories with quantifiable results and performance meal photography
+
+### Pricing Plans
+Two-tier subscription model with advanced performance tracking features
+
+### CTA & Footer
+Strong call-to-action with training goal selection and comprehensive footer navigation
+
+---
+
+## 🛠️ Technical Stack
+
+- **HTML5** - Semantic markup
+- **CSS3** - Modern styling with Grid & Flexbox
+- **JavaScript** - Smooth scroll, sticky nav, mobile menu, intersection observer
+- **Ion Icons** - Scalable vector iconography
+- **Google Fonts** - Rubik font family
+
+---
+
+## 🚀 Live Site
+
+Visit the live website: **https://athletefuel.netlify.app/**
+
+---
+
+## 👨‍💻 Developer
+
+**Nishanth Attarki**  
+Transforming generic food delivery into athletic performance nutrition.
+
+---
+
+**Built with 💪 for athletes by athletes**
