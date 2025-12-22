@@ -23,15 +23,15 @@ Large: 1.8
 
 --- 02 COLORS
 
-- Primary: #0066CC (Athletic Blue)
+- Primary: #FF6B35 (Energy Orange)
 - Tints:
-#E6F2FF (Light Blue)
-#B3D9FF (Soft Blue)
-#1E90FF (Electric Blue)
+#FFF4F0 (Light Peach)
+#FFD4C4 (Soft Orange)
+#FF8C5A (Bright Orange)
 
 - Shades: 
-#004C99 (Deep Blue)
-#001F3F (Navy)
+#E85A2A (Deep Orange)
+#1A1A1A (Charcoal Black)
 
 - Accents:
 - Greys
@@ -140,9 +140,11 @@ body {
 }
 
 .heading-primary {
-  font-size: 5.2rem;
-  line-height: 1.05;
+  font-size: 6.2rem;
+  line-height: 1.1;
   margin-bottom: 3.2rem;
+  font-weight: 800;
+  color: #1A1A1A;
 }
 
 .heading-secondary {
@@ -160,11 +162,11 @@ body {
 .subheading {
   display: block;
   font-size: 1.6rem;
-  font-weight: 500;
-  color: #004C99;
+  font-weight: 700;
+  color: #FF6B35;
   text-transform: uppercase;
   margin-bottom: 1.6rem;
-  letter-spacing: 0.75px;
+  letter-spacing: 1.5px;
 }
 
 .btn,
@@ -190,57 +192,68 @@ body {
 
 .btn--full:link,
 .btn--full:visited {
-  background-color: #0066CC;
+  background-color: #FF6B35;
   color: #fff;
+  box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
 }
 
 .btn--full:hover,
 .btn--full:active {
-  background-color: #004C99;
+  background-color: #E85A2A;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 107, 53, 0.4);
 }
 
 .btn--outline:link,
 .btn--outline:visited {
-  background-color: #fff;
-  color: #555;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
 }
 
 .btn--outline:hover,
 .btn--outline:active {
-  background-color: #E6F2FF;
-
-  /* border: 3px solid #fff; */
+  background-color: #fff;
+  color: #FF6B35;
+  transform: translateY(-2px);
 
   /* Trick to add border inside */
-  box-shadow: inset 0 0 0 3px #fff;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
 }
 
 .btn--form {
-  background-color: #001F3F;
-  color: #E6F2FF;
+  background-color: #1A1A1A;
+  color: #fff;
   align-self: end;
   padding: 1.2rem;
+  font-weight: 700;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .btn--form:hover {
   background-color: #fff;
-  color: #001F3F;
+  color: #1A1A1A;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
 .link:link,
 .link:visited {
   display: inline-block;
-  color: #0066CC;
+  color: #FF6B35;
   text-decoration: none;
-  border-bottom: 1px solid currentColor;
+  border-bottom: 2px solid currentColor;
   padding-bottom: 2px;
   transition: all 0.3s;
+  font-weight: 600;
 }
 
 .link:hover,
 .link:active {
-  color: #004C99;
-  border-bottom: 1px solid transparent;
+  color: #E85A2A;
+  border-bottom: 2px solid transparent;
+  transform: translateX(5px);
 }
 
 .list {
@@ -261,14 +274,15 @@ body {
 .list-icon {
   width: 3rem;
   height: 3rem;
-  color: #0066CC;
+  color: #FF6B35;
+  background-color: #FFF4F0;
+  border-radius: 50%;
+  padding: 0.6rem;
 }
 
 *:focus {
   outline: none;
-  /* outline: 4px dotted #0066CC; */
-  /* outline-offset: 8px; */
-  box-shadow: 0 0 0 0.8rem rgba(0, 102, 204, 0.5);
+  box-shadow: 0 0 0 0.8rem rgba(255, 107, 53, 0.4);
 }
 
 /* HELPER/SETTINGS CLASSES */
